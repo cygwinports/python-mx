@@ -1,6 +1,0 @@
-ORIG_PN="egenix-mx-base"
-inherit distutils
-
-DESCRIPTION="eGenix.com mx Base distribution"
-HOMEPAGE="http://www.egenix.com/products/python/mxBase/"
-SRC_URI="http://downloads.egenix.com/python/${ORIG_PN}-${PV}.tar.gz"

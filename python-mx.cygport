@@ -1,7 +1,12 @@
-category: Python
-requires: python
-sdesc: "Python eGenix.com mx Base distribution"
-ldesc: "The eGenix.com mx Base Distribution contains the following products:
+ORIG_PN="egenix-mx-base"
+inherit distutils
+
+NAME="python-mx"
+VERSION=3.2.5
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Python eGenix.com mx Base distribution"
+DESCRIPTION="The eGenix.com mx Base Distribution contains the following products:
 * mxDateTime - Date/Time Library for Python
 * mxTextTools - Fast Text Parsing and Processing Tools for Python
 * mxProxy - Object Access Control for Python
@@ -11,3 +16,5 @@ ldesc: "The eGenix.com mx Base Distribution contains the following products:
 * mxStack - Fast and Memory-Efficient Stack Type for Python
 * mxQueue - Fast and Memory-Efficient Queue Type for Python
 * mxTools - Fast Everyday Helpers for Python"
+HOMEPAGE="http://www.egenix.com/products/python/mxBase/"
+SRC_URI="http://downloads.egenix.com/python/${ORIG_PN}-${PV}.tar.gz"
